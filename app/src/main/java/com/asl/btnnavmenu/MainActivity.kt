@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity(),Comunicator {
     }
     override fun PassData(fragment:Fragment, editTextData: String) {
         savedText = editTextData
-        binding.bottomNavigationView.setSelectedItemId(R.id.nav_dashboard)
+        binding.bottomNavigationView.selectedItemId = R.id.nav_dashboard
     }
 
 }
